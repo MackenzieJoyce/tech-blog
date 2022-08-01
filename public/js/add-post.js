@@ -24,3 +24,6 @@ async function newPostEvent(event) {
 }
 
 document.querySelector('.***CREATE-FORM-FOR-NEW-POST***')
+
+// This all happens in the dashboard
+// Only when you select the specific post
