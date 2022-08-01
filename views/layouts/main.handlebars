@@ -1,0 +1,27 @@
+<head>
+  <meta charset="UTF-8">
+  <title>The Tech Blog</title>
+  {{!-- <link rel="stylesheet" href="/css/jass.css"> --}}
+  <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
+        <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Dashboard</a>
+            {{!-- <a class="nav-link" href="#">Link</a> --}}
+        </nav>
+        <h1> 
+            The Tech Blog 
+        </h1>
+    </header>
+      <main class="container container-fluid mt-5">
+        {{{ body }}}
+      </main>
+  </div>
+  </body>
+
+</html>
